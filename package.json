@@ -1,0 +1,19 @@
+{
+  "name": "trade",
+  "workspaces":[
+    "server",
+    "poller",
+    "frontend",
+    "engine",
+    "packages/*",
+    "dbProcessor"
+
+  ],
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
